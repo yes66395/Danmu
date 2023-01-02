@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>彈幕功能</title>
+		<link rel="shortcut icon" href="#" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="video-wrapper">
+				<canvas id="canvas"></canvas>
+				<video src="./video.mp4" id="video" controls></video>
+			</div>
+			<div class="tool-box">
+				<input type="text" class="danmu-input" />
+				<button class="danmu-btn">發送彈幕</button>
+				<input type="color" class="color-input" />
+			</div>
+		</div>
+		<script src="./app.js" type="module"></script>
+	</body>
+</html>
